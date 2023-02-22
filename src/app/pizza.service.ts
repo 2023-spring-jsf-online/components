@@ -12,13 +12,13 @@ export class PizzaService {
     const toppingsFromWebService = [
       {
         name: 'Olives',
-        prices: 2.25
+        price: 2.25
       }, {
         name: 'Pepperoni',
-        prices: 1.50
+        price: 1.50
       }, {
         name: 'Sausage',
-        prices: 1.75
+        price: 1.75
       },
     ];
 
