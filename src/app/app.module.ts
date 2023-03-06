@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MackAlbumListComponent } from './mack-album-list/mack-album-list.component';
 
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -18,8 +19,9 @@ import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
-    PizzaToppingsComponent
-    , TjsMultiplicationComponent
+    PizzaToppingsComponent,
+    MackAlbumListComponent,
+    TjsMultiplicationComponent
   ],
   imports: [
     BrowserModule
